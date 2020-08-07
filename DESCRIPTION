@@ -1,0 +1,18 @@
+Package: discoball
+Title: Simple Interactions With The Discourse API
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Mark",
+           family = "Sellors",
+           role = c("aut", "cre"),
+           email = "github@5vcc.com")
+Description: Simple API-key-less interactions with the Discourse API.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Imports:
+  httr,
+  memoise,
+  tibble
