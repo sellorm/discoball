@@ -4,10 +4,14 @@
 \alias{get_group_members}
 \title{Returns the member usernames from a given group}
 \usage{
-get_group_members(groupname)
+get_group_members(groupname, paged = FALSE, offset = 0)
 }
 \arguments{
 \item{groupname}{Valid discourse group name}
+
+\item{paged}{Boolean that controls whether we fetch additional pages is required}
+
+\item{offset}{int number of records to offset the query - only applicable if paged = TRUE}
 }
 \description{
 Returns the member usernames from a given group
